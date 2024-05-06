@@ -1,0 +1,71 @@
+@mixin centrar{
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+@mixin estilo-fecha{
+    font-size: 16px;
+    margin-top: 7px;
+    margin-bottom: 10px
+}
+
+@mixin fontsize-p{
+    font-size: 16px;
+}
+
+
+.sectionDetalle{
+    @include centrar;
+
+
+    &__h2{
+        padding-top: 25px;
+    }
+
+    &__divLogo{
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    &__logoImg{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    &__logoP{
+        margin-right: 50px;
+    }
+
+    &__pFecha{
+        @include estilo-fecha;
+    }
+
+    &__pUno{
+        @include fontsize-p;
+        padding: 20px;
+    }
+
+    &__img{
+        display: flex;
+        height: 300px;
+        width: 55%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+    }
+
+    &__pDos{
+        @include fontsize-p;
+
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+
+
+}

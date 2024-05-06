@@ -1,0 +1,43 @@
+.suscripcion{
+    background-color: rgb(93, 170, 54); 
+    margin-left: 160px; 
+    margin-right: 160px; 
+    margin-top: 70px; 
+    margin-bottom: 50px; 
+    height: 200px; 
+    display: flex; 
+    justify-content: center; 
+    border-radius: 18px;
+
+    .suscripcion__div{
+        display: flex; 
+        align-items: center;
+    }
+
+    .suscripcion__h3{
+        color: #ffffff; 
+        font-size: 30px; 
+        padding-bottom: 10px;
+    }
+
+    .suscripcion__tercerDiv{
+        display: flex;
+    }
+
+    .suscripcion__input{
+        height: 50px; 
+        width: 400px; 
+        border-radius: 10px;
+        border: none;
+        font-size: 17px;
+    }
+
+    .suscripcion__button{
+        margin-left: 100px; 
+        width: 200px; 
+        border-radius: 10px; 
+        border: none;
+        font-size: 17px;
+        color: #5c5c5c;
+    }
+}

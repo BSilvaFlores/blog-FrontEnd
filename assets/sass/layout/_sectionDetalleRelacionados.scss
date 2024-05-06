@@ -1,0 +1,54 @@
+@mixin estilo-logo-relacionados{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%
+}
+
+
+.sectionRelacionados{
+    @include centrar;
+
+    .sectionRelacionados__div{
+        display: flex;
+    }
+
+    .sectionRelacionados__h2{
+        margin-bottom: 20px;
+    }
+
+    .sectionRelacionados__articulo{
+        margin-right: 30px;
+    }
+    
+    .sectionRelacionados__articuloImg{
+        height: 230px;
+        width: 370px;
+        border-radius: 15px
+    }
+
+    .sectionRelacionados__pFecha{
+        @include estilo-fecha;
+    }
+
+    .sectionRelacionados__articuloTitulo{
+        margin-bottom: 10px;
+    }
+
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 35px;
+
+    .logo__img{
+        @include estilo-logo-relacionados;
+        margin-right: 10px;
+    }
+
+    .logo__p{
+        @include fontsize-p;
+    }
+}

@@ -1,0 +1,32 @@
+ .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+
+  @mixin color-black{
+    color: black;
+  }
+
+  .p--fecha{
+    @include color-black;
+    font-size: 16px;
+ }
+
+ .titulo--principales{
+    font-size: 28px;
+}

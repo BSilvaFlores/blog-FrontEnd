@@ -1,0 +1,78 @@
+@mixin margin{
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 25px;
+}
+
+.sectionResgistro{
+    &__h2{
+        display: block; 
+        width: 50%; 
+        margin-left: auto; 
+        margin-right: auto; 
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    &__input::placeholder{
+        color: #bebebe;
+    }
+
+    &__input{
+        padding: 10px;
+        height: 30px; 
+    }
+
+    &__input, &__button{
+        @include margin;
+ 
+        display: block; 
+        width: 40%; 
+        border-radius: 10px;
+        font-size: 20px;
+        border: 1px solid #cccccc;
+    }
+
+    &__button{
+        border: none;
+        background-color: rgb(81, 183, 50);
+        color: #ffffff;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    &__button:hover{
+        background-color: rgb(59, 133, 36);
+    }
+
+    .sectionResgistro__a{
+        text-decoration: none;
+        color: #ffffff
+    }
+}
+
+
+.divLogoGoogle{
+    @include margin;
+    display: block; 
+    height: 40px; 
+    width: 50%; 
+    border-radius: 10px; 
+    text-align: center;
+    padding-bottom: 70px;
+
+
+    &__div{
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    &__img{
+        height: 40px;
+        width: 40px;
+        padding: 5px;
+    }
+
+}

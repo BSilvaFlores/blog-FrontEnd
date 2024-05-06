@@ -1,0 +1,72 @@
+$orange:#E93E30;
+$yellow:#F7E018;
+$blue:#299ED5;
+$black:#292C33;
+$green:#67C770;
+$blueviolet:#563D7C;
+
+
+.containerCategorias{
+    margin: 10px;
+    width: 40%;
+    padding-left: 160px;
+
+    &__titulo{
+        padding-bottom: 10px;
+    }
+
+    &__div{
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px;
+        border-radius: 10px;
+        width: 320px;
+        height: 89px;
+    }
+}
+
+
+
+
+
+.categoria{
+
+    &__logo{
+        width: 85px;
+        height: 74px;
+    }
+    
+    &__titulo{
+        font-size: 32px;
+        color: #ffffff;
+    }
+}
+
+
+.containerCategorias{
+    
+    &__div--orange{
+        background-color: $orange;
+    }
+    
+    &__div--yellow{
+        background-color: $yellow;
+    }
+    
+    &__div--blue{
+        background-color: $blue;
+    }
+    
+    &__div--black{
+        background-color: $black;
+    }
+    
+    &__div--green{
+        background-color: $green;
+    }
+    
+    &__div--blueviolet{
+        background-color: $blueviolet;
+    }
+}
+

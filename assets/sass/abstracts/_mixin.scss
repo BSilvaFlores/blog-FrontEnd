@@ -1,0 +1,27 @@
+
+@mixin centrar{
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+@mixin estilo-fecha{
+    font-size: 16px;
+    margin-top: 7px;
+    margin-bottom: 10px
+}
+
+@mixin fontsize-p{
+    font-size: 16px;
+}
+
+@mixin estilo-logo-relacionados{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%
+}
+
+@mixin margin{
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 25px;
+}
